@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="524d9474-e7e3-4944-baad-b4356801d7ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/trainingSymfony1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trainingSymfony1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PropertyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PropertyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Property.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Property.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/_menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/_menu.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/property/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/property/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/property/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/property/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,12 +202,37 @@
       <updated>1582535275908</updated>
       <workItem from="1582535277062" duration="5828000" />
       <workItem from="1582555778672" duration="3940000" />
-      <workItem from="1582615416429" duration="20245000" />
+      <workItem from="1582615416429" duration="20486000" />
     </task>
+    <task id="LOCAL-00001" summary="modifications design crud">
+      <created>1582643233516</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582643233516</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="modifications design crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifications design crud" />
   </component>
   <component name="WindowStateProjectService">
     <state x="132" y="598" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582625195268">
@@ -229,6 +243,10 @@
       <screen x="0" y="0" width="1080" height="1880" />
     </state>
     <state x="276" y="743" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1080.1880/-1920.464.1920.1040@0.0.1080.1880" timestamp="1582621353224" />
+    <state x="150" y="534" key="CommitChangelistDialog2" timestamp="1582643232565">
+      <screen x="0" y="0" width="1080" height="1880" />
+    </state>
+    <state x="150" y="534" key="CommitChangelistDialog2/0.0.1080.1880/-1920.464.1920.1040@0.0.1080.1880" timestamp="1582643232565" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1582556542031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
