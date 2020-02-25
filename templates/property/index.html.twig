@@ -3,28 +3,55 @@
 {% block title %}Property index{% endblock %}
 
 {% block body %}
-    <h1>Property index</h1>
+    <div class="container">
+        <h1>Property index</h1>
 
-        <div class="container">
-            <h2>Last Property</h2>
-            <div class="row flex">
-                {% for property in properties %}
-                    <div class="col-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    <a href="{{ path('property_show', {id: property.id}) }}">{{ property.title }}</a>
-                                </h5>
-                                <p class="card-text">{{ property.city }} ({{ property.adress }})</p>
-                                <div class="text-primary" style="font-weight: bold; font-size: 2rem">{{ property.formattedPrice }} €</div>
-                            </div>
-                        </div>
-                    </div>
-                {% else %}
-                    <p>No Property to display</p>
-                {% endfor %}
-            </div>
-        </div>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Surface</th>
+                <th>Rooms</th>
+                <th>Floor</th>
+                <th>Price</th>
+                <th>Heat</th>
+                <th>City</th>
+                <th>Adress</th>
+                <th>Sold</th>
+                <th>Created_at</th>
+                <th>actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for property in properties %}
+                <tr>
+                    <td>{{ property.id }}</td>
+                    <td>{{ property.title }}</td>
+                    <td>{{ property.description }}</td>
+                    <td>{{ property.surface }}</td>
+                    <td>{{ property.rooms }}</td>
+                    <td>{{ property.floor }}</td>
+                    <td>{{ property.price }}</td>
+                    <td>{{ property.heat }}</td>
+                    <td>{{ property.city }}</td>
+                    <td>{{ property.adress }}</td>
+                    <td>{{ property.sold ? 'Yes' : 'No' }}</td>
+                    <td>{{ property.createdAt ? property.createdAt|date('Y-m-d H:i:s') : '' }}</td>
+                    <td>
+                        <a href="{{ path('property_show', {'id': property.id}) }}">show</a>
+                        <a href="{{ path('property_edit', {'id': property.id}) }}">edit</a>
+                    </td>
+                </tr>
+            {% else %}
+                <tr>
+                    <td colspan="13">no records found</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
 
-    <a href="{{ path('property_new') }}">Create new</a>
+        <a href="{{ path('property_new') }}">Create new</a>
+    </div>
 {% endblock %}

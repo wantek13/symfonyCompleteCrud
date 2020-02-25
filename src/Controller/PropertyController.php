@@ -20,7 +20,7 @@ class PropertyController extends AbstractController
      */
     public function index(PropertyRepository $propertyRepository): Response
     {
-        return $this->render('property/index.html.twig', [
+        return $this->render('Pages/index.html.twig', [
             'properties' => $propertyRepository->findAll(),
         ]);
     }

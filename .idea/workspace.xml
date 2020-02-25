@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="524d9474-e7e3-4944-baad-b4356801d7ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PropertyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PropertyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Pages/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Pages/home.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/_menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/_menu.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/property/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/property/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +179,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1YFPGq5wCxkzLFHEXMMfrBwNcAs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -190,6 +196,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tutoSymfony1" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Symfony\trainingSymfony1\src\Controller\Admin" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -202,7 +213,7 @@
       <updated>1582535275908</updated>
       <workItem from="1582535277062" duration="5828000" />
       <workItem from="1582555778672" duration="3940000" />
-      <workItem from="1582615416429" duration="20486000" />
+      <workItem from="1582615416429" duration="23131000" />
     </task>
     <task id="LOCAL-00001" summary="modifications design crud">
       <created>1582643233516</created>
@@ -211,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582643233516</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="modifications design crud">
+      <created>1582643594703</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582643594703</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +253,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="modifications design crud" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="126" y="598" key="#Deployment" timestamp="1582643531523">
+      <screen x="0" y="0" width="1080" height="1880" />
+    </state>
+    <state x="126" y="598" key="#Deployment/0.0.1080.1880/-1920.464.1920.1040@0.0.1080.1880" timestamp="1582643531523" />
     <state x="132" y="598" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582625195268">
       <screen x="0" y="0" width="1080" height="1880" />
     </state>
@@ -243,10 +265,14 @@
       <screen x="0" y="0" width="1080" height="1880" />
     </state>
     <state x="276" y="743" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1080.1880/-1920.464.1920.1040@0.0.1080.1880" timestamp="1582621353224" />
-    <state x="150" y="534" key="CommitChangelistDialog2" timestamp="1582643232565">
+    <state x="270" y="695" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1582644880366">
       <screen x="0" y="0" width="1080" height="1880" />
     </state>
-    <state x="150" y="534" key="CommitChangelistDialog2/0.0.1080.1880/-1920.464.1920.1040@0.0.1080.1880" timestamp="1582643232565" />
+    <state x="270" y="695" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1080.1880/-1920.464.1920.1040@0.0.1080.1880" timestamp="1582644880366" />
+    <state x="150" y="534" key="CommitChangelistDialog2" timestamp="1582643594158">
+      <screen x="0" y="0" width="1080" height="1880" />
+    </state>
+    <state x="150" y="534" key="CommitChangelistDialog2/0.0.1080.1880/-1920.464.1920.1040@0.0.1080.1880" timestamp="1582643594158" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1582556542031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -256,5 +282,9 @@
     </state>
     <state x="82" y="293" key="SettingsEditor/0.0.1080.1880/-1920.0.1920.1040@0.0.1080.1880" timestamp="1582619189531" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582535312220" />
+    <state x="132" y="673" key="Vcs.Push.Dialog.v2" timestamp="1582643619400">
+      <screen x="0" y="0" width="1080" height="1880" />
+    </state>
+    <state x="132" y="673" key="Vcs.Push.Dialog.v2/0.0.1080.1880/-1920.464.1920.1040@0.0.1080.1880" timestamp="1582643619400" />
   </component>
 </project>
