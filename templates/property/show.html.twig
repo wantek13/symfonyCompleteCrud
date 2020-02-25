@@ -1,62 +1,79 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Property{% endblock %}
+{% block title property.title %}
 
 {% block body %}
-    <h1>Property</h1>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
 
-    <table class="table">
-        <tbody>
-            <tr>
-                <th>Id</th>
-                <td>{{ property.id }}</td>
-            </tr>
-            <tr>
-                <th>Title</th>
-                <td>{{ property.title }}</td>
-            </tr>
-            <tr>
-                <th>Description</th>
-                <td>{{ property.description }}</td>
-            </tr>
-            <tr>
-                <th>Surface</th>
-                <td>{{ property.surface }}</td>
-            </tr>
-            <tr>
-                <th>Rooms</th>
-                <td>{{ property.rooms }}</td>
-            </tr>
-            <tr>
-                <th>Floor</th>
-                <td>{{ property.floor }}</td>
-            </tr>
-            <tr>
-                <th>Price</th>
-                <td>{{ property.price }}</td>
-            </tr>
-            <tr>
-                <th>Heat</th>
-                <td>{{ property.heat }}</td>
-            </tr>
-            <tr>
-                <th>City</th>
-                <td>{{ property.city }}</td>
-            </tr>
-            <tr>
-                <th>Adress</th>
-                <td>{{ property.adress }}</td>
-            </tr>
-            <tr>
-                <th>Sold</th>
-                <td>{{ property.sold ? 'Yes' : 'No' }}</td>
-            </tr>
-            <tr>
-                <th>Created_at</th>
-                <td>{{ property.createdAt ? property.createdAt|date('Y-m-d H:i:s') : '' }}</td>
-            </tr>
-        </tbody>
-    </table>
+                </div>
+                <div class="col-md-4">
+                    <h1>{{ property.title }}</h1>
+                    <h2>{{ property.rooms }} rooms - {{ property.surface }} m²</h2>
+                    <div class="text-primary" style="font-size: 4rem;font-weight: bold;">{{ property.formattedPrice }} €</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+
+        <p>{{ property.description }}</p>
+
+        <div class="row">
+            <div class="col-md-8">
+                <h2>FEATURES</h2>
+                <table class="table table-striped">
+                    <tbody>
+                    <tr>
+                        <th>Title</th>
+                        <td>{{ property.title }}</td>
+                    </tr>
+                    <tr>
+                        <th>Surface</th>
+                        <td>{{ property.surface }}</td>
+                    </tr>
+                    <tr>
+                        <th>Rooms</th>
+                        <td>{{ property.rooms }}</td>
+                    </tr>
+                    <tr>
+                        <th>Floor</th>
+                        <td>{{ property.floor }}</td>
+                    </tr>
+                    <tr>
+                        <th>Price</th>
+                        <td>{{ property.price }}</td>
+                    </tr>
+                    <tr>
+                        <th>Heat</th>
+                        <td>{{ property.heatType }}</td>
+                    </tr>
+                    <tr>
+                        <th>City</th>
+                        <td>{{ property.city }}</td>
+                    </tr>
+                    <tr>
+                        <th>Adress</th>
+                        <td>{{ property.adress }}</td>
+                    </tr>
+                    <tr>
+                        <th>Sold</th>
+                        <td>{{ property.sold ? 'Yes' : 'No' }}</td>
+                    </tr>
+                    <tr>
+                        <th>Created_at</th>
+                        <td>{{ property.createdAt ? property.createdAt|date('Y-m-d H:i:s') : '' }}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <h3>Specials</h3>
+            </div>
+        </div>
+    </div>
 
     <a href="{{ path('property_index') }}">back to list</a>
 

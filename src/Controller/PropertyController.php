@@ -16,7 +16,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class PropertyController extends AbstractController
 {
     /**
-     * @Route("/", name="property_index", methods={"GET"})
+     * @Route("/property", name="property_index", methods={"GET"})
      */
     public function index(PropertyRepository $propertyRepository): Response
     {
